@@ -13,24 +13,35 @@ h1 {
     font-family:'Times New Roman';
 }
 
+#nav-bar {
+    position: sticky;
+    top: 0em;
+    z-index: 2;
+}
+
 ul {
+    background-color: #eee;
     border-top: 1.5px solid #777;
     border-bottom: 1.5px solid #777; 
+    text-align: center;
 }
 
 li, a {
     color: #777;
     display: inline-block;
-    text-align: center;
     font-family: arial;
     text-decoration: none;
     padding: .6em;
-
 }
 
 h2 {
     font-family: Roboto Slab;
     font-weight: 1000;
+}
+
+#contact-header {
+    text-align: center;
+    padding: 25px 0;
 }
 
 h5 {
@@ -45,6 +56,7 @@ p {
 
 #pic1 {
     width: 100%;
+    height: 300px;
 }
 
 
@@ -70,8 +82,8 @@ section {
 }
 
 img {
-    width: 300px;
-    height: 200px;
+    width: 500px;
+    height: 300px;
 }
 
 
@@ -87,4 +99,21 @@ footer {
     text-decoration: none;
     padding: auto;
     width: 100%;
+}
+
+.contact-support {
+    display: inline-block auto;
+}
+
+.contact-form {
+    display: inline-block;
+    padding-left: 22%; 
+    text-align: center;  
+}
+
+.support-page {
+    display: inline-block auto;
+    text-align: center;
+    border-top: #777;
+    border-bottom: #777;
 }
